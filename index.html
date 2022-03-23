@@ -13,19 +13,6 @@
 
 					<header id="header" class="alt">
 						<h1><a href="index.html">Cult-Salon</a></h1>
-						<!-- <nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav> -->
 					</header>
 
 					<section id="banner">
@@ -34,7 +21,6 @@
 								<img src="images/logo.png" id="logo">
 							</div>
 							<br />
-							<!-- <h2>Cult-Salon</h2> -->
 							<p>
 								<a class="scrolly" href="#about">About us</a><br />
 								<a class="scrolly" href="#join">Join Us</a><br />
@@ -43,7 +29,22 @@
 								<a class="scrolly" href="#follow">Follow us</a>
 							</p>
 							<ul class="actions special">
-								<li><a href="#" class="button primary">Book an Appointment</a></li>
+								<li><a class="button primary" id="banner-button" onclick="(function (a) {
+									var b = {
+								  businessId: 'f692b32c-070a-4079-8eb9-87a101fe9fd5'
+									};
+					
+									var c = a.createElement('script');
+									var d = a.querySelector('script');
+					
+								   c.src = 'https://static.joinboulevard.com/injector.min.js';
+									c.async = true;
+									c.onload = function () {
+								  blvd.init(b);
+									};
+					
+									d.parentNode.insertBefore(c, d);
+								  })(document);">Book an Appointment</a></li>
 							</ul>
 						</div>
 						<a href="#two" class="more scrolly">Learn More</a>
@@ -51,52 +52,45 @@
 
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight" id="about">
-							<div class="image"><img src="#" alt="" /></div><div class="content">
-								<h2>About us.</h2>
-								<p>We Are Cult Salon<br />
-									<br />
-									Texas grown. Colorado Rockies dreaming.<br />
-									<br />
-									Meet Vanessa Whitmarsh and Jessica Cordero, owners of Cult Salon. An art driven hairdresser and a creative business manager, they met 14 years ago while training and working at Austin, TX's top AVEDA Salon. Becoming quick friends, sharing the same values of creativity, integrity and hard work; remembering to always learn first, push boundaries and impact those around them.<br />
-									<br />
-									Jessica returned home to El Paso, Texas where she lead a salon team to consecutive honors in business management. She eventually left to start her own coaching business. She used technology to connect salon owners with business education from leaders across the country with free Lunch & Learn events. Always seeking to listen and learn, she then used that to be of value to the suite owners, boutique salons and multi-location brands she worked with.<br />
-									<br />
-									Modern Salon, American Salon and Estetica are just a few of the publications Vanessa’s art has been featured in. Working behind the chair Vanessa connects with her guests and builds strong relationships. It’s when she’s expressing her vision and sharing her knowledge that she really shines. From producing award winning team and individual collections, working backstage at New York Fashion Week, being an AVEDA educator and National AVEDA Artist Team member she has the first hand experience of the value of learning and the passion to take talent to the next level.<br />
-									<br />
-									Now together, CULT Salon is the place bringing creative and business education to the next generation of beauty. By providing education, training, business coaching and a creative space our environment works to nourish every artist while building a place to flourish as a team. <br />
-									<br />
-									We have a lot to teach, and even more to learn!<br />
-									<br />
-									Join us!<br /></p>
+							<div class="image"><img src="images/spotlight-yellow.jpg" alt="Woman with stylish, yellow haircut set on a yellow background" /></div><div class="content">
+								<h2 style="color: rgba(247, 210, 83);">About us.</h2>
+								<p style="color: rgba(247, 210, 83);">We Are Cult Salon</p>
+									<p style="color: rgba(247, 210, 83);">Texas grown. Colorado Rockies dreaming.</p>
+									<p style="color: rgba(247, 210, 83);">Meet Vanessa Whitmarsh and Jessica Cordero, owners of Cult Salon. An art driven hairdresser and a creative business manager, they met 14 years ago while training and working at Austin, TX's top AVEDA Salon. Becoming quick friends, sharing the same values of creativity, integrity and hard work; remembering to always learn first, push boundaries and impact those around them.</p>
+									<!-- <p>Jessica returned home to El Paso, Texas where she lead a salon team to consecutive honors in business management. She eventually left to start her own coaching business. She used technology to connect salon owners with business education from leaders across the country with free Lunch & Learn events. Always seeking to listen and learn, she then used that to be of value to the suite owners, boutique salons and multi-location brands she worked with.</p>
+									<p>Modern Salon, American Salon and Estetica are just a few of the publications Vanessa’s art has been featured in. Working behind the chair Vanessa connects with her guests and builds strong relationships. It’s when she’s expressing her vision and sharing her knowledge that she really shines. From producing award winning team and individual collections, working backstage at New York Fashion Week, being an AVEDA educator and National AVEDA Artist Team member she has the first hand experience of the value of learning and the passion to take talent to the next level.</p> -->
+									<p style="color: rgba(247, 210, 83);">Now together, CULT Salon is the place bringing creative and business education to the next generation of beauty. By providing education, training, business coaching and a creative space our environment works to nourish every artist while building a place to flourish as a team.</p>
+									<p style="color: rgba(247, 210, 83);">We have a lot to teach, and even more to learn!</p>
+									<p style="color: rgba(247, 210, 83);">Join us!</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image" id="join"><img src="images/spotlight-yellow.jpg" alt="" /></div><div class="content">
-								<h2 style="color: rgba(247, 210, 83);">Join us</h2>
-								<p style="color: rgba(247, 210, 83);">Would you like to book an appointment? Click the button below!</p>
+							<div class="image" id="join"><img src="images/spotlight-orange.jpg" alt="Woman with stylish, orange haircut set on an orange background" /></div><div class="content">
+								<h2 style="color: rgba(255, 125, 62);">Join us</h2>
+								<p style="color: rgba(255, 125, 62);">Would you like to book an appointment? Click the button below!</p>
 								<ul>
 									<li style="list-style: none;">
-										<a class="button small" id="boulevard" href="#">Book</a>
+										<a class="button small" id="boulevard">Book</a>
 									</li>
 								</ul>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image" id="obsess"><img src="images/spotlight-orange.jpg" alt="" /></div><div class="content">
-								<h2 style="color: rgba(255, 125, 62);">Obsess with us</h2>
-								<p style="color: rgba(255, 125, 62);">Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image" id="obsess"><img src="images/spotlight-red.jpg" alt="Sideview of a woman with stylish, red haircuit set on a red background" /></div><div class="content">
+								<h2 style="color: rgba(139, 0, 9);">Obsess with us</h2>
+								<p style="color: rgba(139, 0, 9);">Here are all the beauty products we have from Aveda.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image" id="come"><img src="images/spotlight-red.jpg" alt="" /></div><div class="content">
-								<h2 style="color: rgba(139, 0, 9);">Come with us</h2>
-								<p style="color: rgba(139, 0, 9);">Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image" id="come"><img src="images/spotlight-pink.jpg" alt="Woman with stylish, pink haircut set on pink background" /></div><div class="content">
+								<h2 style="color: rgba(164, 82, 87);">Come with us</h2>
+								<p style="color: rgba(164, 82, 87);">At Cult-Salon we are looking to hire experienced hair stylists, please email us your resume for consideration.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image" id="follow"><img src="images/spotlight-pink.jpg" alt="" /></div><div class="content">
-								<h2 style="color: rgba(164, 82, 87);">Follow us</h2>
-								<p style="color: rgba(164, 82, 87);">Follow us on <a href="#">Instagram</a> and <a href="#">Facebook</a> to check out some of our latest work!</p>
+							<div class="image" id="follow"><img src="images/spotlight-yellow1.jpg" alt="Woman with stylish, yellow haircut set on a yellow background" /></div><div class="content">
+								<h2 style="color: rgba(247, 210, 83);">Follow us</h2>
+								<p style="color: rgba(247, 210, 83);">Follow us on <a href="https://www.instagram.com/cult.salon.co">Instagram</a> and <a href="https://m.facebook.com/Cult-Salon-110505394905348/">Facebook</a> to check out some of our latest work!</p>
 							</div>
 						</section>
 					</section>
@@ -117,17 +111,6 @@
 							</div>
 						</div>
 					</section>
-
-					<!-- <section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Book an Appointment</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-  							<button class="script"> Book</button>
-						</div>
-					</section> -->
 
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
@@ -165,10 +148,9 @@
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Cult</li></a></li><li>Website: <a href="https://www.colemodelo.com/">CM Web Development & Design</a></li><li>Design: <a href="http://html5up.net">HTML5 UP
+							<li>&copy; Cult Salon 2022</li></a></li><li>Website: <a href="https://www.colemodelo.com/">CM Web Development & Design</a></li><li>Design: <a href="http://html5up.net">HTML5 UP
 						</ul>
 					</footer>
-
 			</div>
 
 			<script src="assets/js/jquery.min.js"></script>
@@ -178,25 +160,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!-- Boulevard Booking Widget -->
-<script>
-	(function (a) {
-	  var b = {
-		businessId: 'f692b32c-070a-4079-8eb9-87a101fe9fd5'
-	  };
-  
-	  var c = a.createElement('script');
-	  var d = a.querySelector('script');
-  
-	  c.src = 'https://static.joinboulevard.com/injector.min.js';
-	  c.async = true;
-	  c.onload = function () {
-		blvd.init(b);
-	  };
-  
-	  d.parentNode.insertBefore(c, d);
-	})(document);
-  </script>
 
 	</body>
 </html>
