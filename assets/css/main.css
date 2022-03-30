@@ -3150,8 +3150,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
-			color: #4E4852;
+			background-color: rgba(10, 15, 20);
+			color: #ffffff;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -4052,4 +4052,9 @@ input, select, textarea {
 	  }
 	  #banner-button{
 		  margin-bottom: 2em;
+	  }
+	  #about-button{
+		  color: rgba(247, 210, 83);
+		  border: 1px solid rgba(247, 210, 83);
+		  box-shadow: inset 0 0 0 1px rgba(247, 210, 83);
 	  }
