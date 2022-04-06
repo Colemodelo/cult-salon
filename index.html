@@ -29,7 +29,7 @@
 								<a class="scrolly" href="#follow">Follow us</a>
 							</p>
 							<ul class="actions special">
-								<li><a class="button primary" id="banner-button" href="https://dashboard.boulevard.io/booking/businesses/f692b32c-070a-4079-8eb9-87a101fe9fd5/widget#/visit-type">Book an Appointment</a></li>							
+								<li><a class="button primary" id="banner-button" onclick="blvd.openBookingWidget()">Book an Appointment</a></li>							
 							</ul>
 						</div>
 						<a href="#two" class="more scrolly">Learn More</a>
@@ -52,7 +52,7 @@
 								<p style="color: rgba(255, 125, 62);">Would you like to book an appointment? Click the button below!</p>
 								<ul>
 									<li style="list-style: none;">
-										<a class="button small" id="boulevard" href="https://dashboard.boulevard.io/booking/businesses/f692b32c-070a-4079-8eb9-87a101fe9fd5/widget#/visit-type">Book</a>
+										<a class="button small" id="booking-button" onclick="blvd.openBookingWidget()">Book</a>
 									</li>
 								</ul>
 							</div>
@@ -169,8 +169,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- Boulevard Widget-->
 			<script>
-					let widget = 'test';				
+				(function (a) {
+				var b = {
+					  businessId: 'f692b32c-070a-4079-8eb9-87a101fe9fd5'
+				};
+
+				var c = a.createElement('script');
+				var d = a.querySelector('script');
+
+				c.src = 'https://static.joinboulevard.com/injector.min.js';
+				c.async = true;
+				c.onload = function () {
+					blvd.init(b);
+				};
+
+				d.parentNode.insertBefore(c, d);
+			  	})(document);
 			</script>
 
 	</body>
