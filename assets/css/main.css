@@ -154,10 +154,6 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	em, i {
-		font-style: italic;
-	}
-
 	p {
 		margin: 0 0 2em 0;
 	}
@@ -1992,27 +1988,6 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
 	}
-
-/* Box */
-
-	.box {
-		border-radius: 3px;
-		border: solid 2px #fff;
-		margin-bottom: 2em;
-		padding: 1.5em;
-	}
-
-		.box > :last-child,
-		.box > :last-child > :last-child,
-		.box > :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
-
-		.box.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
 
 /* Icon */
 
