@@ -3705,6 +3705,11 @@ input, select, textarea {
 				}
 
 		}
+		@media screen and (max-height: 675px) {
+			#banner .more {
+				display: none;
+			}
+		}
 
 	body.is-preload #banner h2 {
 		-moz-transform: scale(0.95);
