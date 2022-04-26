@@ -3705,7 +3705,7 @@ input, select, textarea {
 				}
 
 		}
-		@media screen and (max-height: 675px) {
+		@media screen and (max-height: 710px) {
 			#banner .more {
 				display: none;
 			}
