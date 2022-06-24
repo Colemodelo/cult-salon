@@ -2831,10 +2831,6 @@ input, select, textarea {
 				border-color: #fff;
 			}
 
-			.wrapper.style1 header.major p {
-				color: #c8ece9;
-			}
-
 			.wrapper.style1 label {
 				color: #ffffff;
 			}
@@ -4078,9 +4074,10 @@ input, select, textarea {
 		}
 		.business-phone{
 			color: #fff;
-			font-size: 1.2em;
+			font-size: 1.1em;
+			margin-left: .5em;
 			border-bottom: none;
 		}
-		.business-phone:hover{
+		.icon:hover{
 			opacity: .75;
 		}
