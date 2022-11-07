@@ -4037,11 +4037,6 @@ input, select, textarea {
 	  #banner-button{
 		  margin-bottom: 2em;
 	  }
-	  /* #about-button{
-		  color: rgba(247, 210, 83);
-		  border: 1px solid rgba(247, 210, 83);
-		  box-shadow: inset 0 0 0 1px rgba(247, 210, 83);
-	  } */
 	  .row {
 		display: flex;
 		flex-direction: row;
