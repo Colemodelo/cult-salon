@@ -38,18 +38,18 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight" id="about">
 							<div class="image"><img src="images/spotlight-yellow.jpg" alt="Woman with stylish, yellow haircut set on a yellow background" /></div><div class="content">
-								<h2 style="color: rgba(247, 210, 83);">About us.</h2>
-								<p><b style="color: rgba(247, 210, 83);">CULT Salon:</b></p>
-									<p style="color: rgba(247, 210, 83);">A community of artists delivering an experience you won’t soon forget.</p>
-									<p style="color: rgba(247, 210, 83);">Offering award winning talent in Englewood, CO. we are committed to education, inclusivity, growth, and the art we so deeply love. We are thrilled to serve our community!</p>
-									<p style="color: rgba(247, 210, 83);">Join us for a complimentary beverage, a fresh robe or t-shirt, a personal consultation, as well as stress relieving moments during your service for an experience that will keep you coming back.</p>
+								<h2 >About us.</h2>
+								<p><b>CULT Salon:</b></p>
+									<p>A community of artists delivering an experience you won’t soon forget.</p>
+									<p>Offering award winning talent in Englewood, CO. we are committed to education, inclusivity, growth, and the art we so deeply love. We are thrilled to serve our community!</p>
+									<p>Join us for a complimentary beverage, a fresh robe or t-shirt, a personal consultation, as well as stress relieving moments during your service for an experience that will keep you coming back.</p>
 									<a class="button small" id="about-button" href="about.html">Learn More</a>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image" id="join"><img src="images/spotlight-orange.jpg" alt="Woman with stylish, orange haircut set on an orange background" /></div><div class="content">
-								<h2 style="color: rgba(255, 125, 62);">Join us</h2>
-								<p style="color: rgba(255, 125, 62);">Would you like to book an appointment? Click the button below!</p>
+								<h2>Join us</h2>
+								<p>Would you like to book an appointment? Click the button below!</p>
 								<ul>
 									<li style="list-style: none;">
 										<a class="button small" id="booking-button" onclick="blvd.openBookingWidget()">Book</a>
@@ -59,20 +59,20 @@
 						</section>
 						<section class="spotlight">
 							<div class="image" id="obsess"><img src="images/spotlight-red.jpg" alt="Sideview of a woman with stylish, red haircuit set on a red background" /></div><div class="content">
-								<h2 style="color: rgba(139, 0, 9);">Obsess with us</h2>
-								<p style="color: rgba(139, 0, 9);">Check out some of our <a href="https://cultsalondenver.myshopify.com">merch</a> or some of the beauty products we have from <a href="https://www.aveda.com/locator/get_the_facts.tmpl?SalonID=62252">Aveda</a>.</p>
+								<h2>Obsess with us</h2>
+								<p>Check out some of our <a href="https://cultsalondenver.myshopify.com">merch</a> or some of the beauty products we have from <a href="https://www.aveda.com/locator/get_the_facts.tmpl?SalonID=62252">Aveda</a>.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image" id="come"><img src="images/spotlight-pink.jpg" alt="Woman with stylish, pink haircut set on pink background" /></div><div class="content">
-								<h2 style="color: rgba(164, 82, 87);">Come with us</h2>
-								<p style="color: rgba(164, 82, 87);">At CULT Salon, we are looking to hire experienced hair stylists, please <a href="mailto:cultsalondenver@gmail.com">email</a> us your resume for consideration.</p>
+								<h2>Come with us</h2>
+								<p>At CULT Salon, we are looking to hire experienced hair stylists, please <a href="mailto:cultsalondenver@gmail.com">email</a> us your resume for consideration.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image" id="follow"><img src="images/spotlight-yellow1.jpg" alt="Woman with stylish, yellow haircut set on a yellow background" /></div><div class="content">
-								<h2 style="color: rgba(247, 210, 83);">Follow us</h2>
-								<p style="color: rgba(247, 210, 83);">Follow us on <a href="https://www.instagram.com/cult.salon.co">Instagram</a> and <a href="https://m.facebook.com/Cult-Salon-110505394905348/">Facebook</a> to check out some of our latest work!</p>
+								<h2>Follow us</h2>
+								<p>Follow us on <a href="https://www.instagram.com/cult.salon.co">Instagram</a> and <a href="https://m.facebook.com/Cult-Salon-110505394905348/">Facebook</a> to check out some of our latest work!</p>
 							</div>
 						</section>
 					</section>
@@ -140,7 +140,11 @@
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" class="primary" /></li>
-													<li><input type="reset" value="Reset" /></li>
+													<!-- <li><input type="reset" value="Reset" /></li> -->
+													<li><button class="primary" onclick="document.getElementById('getFile').click()">Choose File</button></li>
+													<input type='file' id="getFile" style="display:none">
+													<!-- <li><label for="files" class="primary">Attach</label></li>
+													<input id="files" type="file" name="attachment" style="visibility:hidden;"> -->
 												</ul>
 											</div>
 										</div>
